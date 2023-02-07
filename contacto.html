@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto 7MDG</title>
+    <link href="styles\index.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display+SC:ital@1&display=swap" rel="stylesheet">
 </head>
 <!--debe de incluir al menos un formulario-->
 <body>
-    <nav>
+    <header>
+        <h1 class="titulo">Contacto</h1>
+    </header>        
+    <nav class="navprincipal">
         <ul>
-            <li><a href="./Home">Home</a></li>
-            <li><a href="./biografia.html">Biografia</a></li>
-            <li><a href="./portfolio.html">Portfolio y eventos</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./biografia.html">BIOGRAFÍA</a></li>
+            <li><a href="./portfolio.html">PORTFOLIO</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
         </ul>
     </nav>
+
     <section>
-        <h3>Contacta con 7MDG</h3> 
+        <h3 class="contacta">Contacta con 7MDG</h3> 
         <article id="contact_group">
             <p>
             Enlaces de contacto generales:
@@ -34,28 +42,51 @@
             <p>
             Enlaces de contacto personales:
             <br>
-            Manu Cantelli: instagram <a href="https://www.instagram.com/cantellimanu/?hl=es"></a>
+            Manu Cantelli: instagram <a href="https://www.instagram.com/cantellimanu/?hl=es">Manu</a>
             <br>
-            Paula Mirá: instagram <a href="https://www.instagram.com/ppaulamira/?hl=es"></a>
+            Paula Mirá: instagram <a href="https://www.instagram.com/ppaulamira/?hl=es">Paula</a>
             <br>
-            Cristina Muñoz: instagram <a href="https://www.instagram.com/cri.cri.m/?hl=es"></a>
+            Cristina Muñoz: instagram <a href="https://www.instagram.com/cri.cri.m/?hl=es">Cristina</a>
             <br>
-            Laura Delgado: instagram <a href="https://www.instagram.com/lorazesugar/?hl=es"></a>
+            Laura Delgado: instagram <a href="https://www.instagram.com/lorazesugar/?hl=es">Laura</a>
             <br>
-            Marta Guijarro: instagram <a href="https://www.instagram.com/marts_gu/?hl=es"></a>
+            Marta Guijarro: instagram <a href="https://www.instagram.com/marts_gu/?hl=es">Marta</a>
             <br>
-            Naya Fuentes: instagram <a href="https://www.instagram.com/combusstion/?hl=es"></a>
+            Naya Fuentes: instagram <a href="https://www.instagram.com/combusstion/?hl=es">Naya</a>
             <br>
-            Lucía Hierro: instagram <a href="https://www.instagram.com/luhierro/?hl=es"></a>
+            Lucía Hierro: instagram <a href="https://www.instagram.com/luhierro/?hl=es">Lucía</a>
             <br>
-
-
             </p>
         </article>
     </section>
     <aside>
-        <forms>
-            
+        <h4>Rellena el formulario para pedir tu camiseta de 7MDG</h5>
+        <forms class="camiseta" action="./formulario" method="post">
+            <section class="formCamiseta">
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" name="input_nombre" id="nombre">
+                <br>
+                <label for="apellido" name="input_apellido" id="apellido">Apellidos:</label>
+                <br>
+                <input type="text" name="input_apellido" id="apellido">
+                <br>
+                <label for="direccion">Dirección:</label>
+                <br>
+                <input type="text" name="direccion" id="direccion">
+                <br>
+                <label for="talla">Talla:</label>
+                <br>
+                <select id="talla" name="select_talla">
+                    <option value="xs">XS</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+                <br>
+
+            </section>            
         </forms>
     </aside>
 </body>
