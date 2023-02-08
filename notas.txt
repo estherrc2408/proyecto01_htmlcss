@@ -1,0 +1,46 @@
+/index.html
+7minutosdegloria
+título (h1):
+	7 minutos de gloria
+Debajo del título de página en cursiva y tipografía mona (h3):
+	Limbo proviene del latín limbus que significa borde o límite, haciendo referencia al “borde del Infierno”.
+	font: https://fonts.google.com/specimen/Elsie+Swash+Caps?query=ps
+
+
+
+HOME:
+-	7 Minutos de Gloria es una auto ficción teatral creada de manera colectiva que se sitúa en este limbo espacio temporal. inspirada en el Decamerón.
+-	Narra la historia de siete amigos a las puertas de la vida adulta, enfrentándose a la ruptura de la inocencia y perdiéndose en las disyuntivas de un mundo frenético basado en el bucle trabajo, dinero, trabajo, dinero, trabajo, dinero… Tomar el tiempo,  parar el reloj y hacerse dueños del proceso.
+-	Crowfunding: https://www.youtube.com/watch?v=W-Um03uqbqM&ab_channel=7MinutosdeGloria
+-	Teaser: https://www.youtube.com/watch?v=E2Jg03UBBIA&ab_channel=7MinutosdeGloria
+Gloriafest
+	descripcion: 
+	enlace: https://www.instagram.com/p/CizsQ9gj0M6/?hl=es (descargarimagen)
+Gira por Colombia:
+	descripción subvención
+Repensando la creación colectiva:
+	conversación entre compañías emergentes sobre los métodos de creación y la autogestión escénica
+		compañías invitadas:
+
+
+
+BIOGRAFIA Y ÚLTIMAS ACTUACIONES
+Cómo nace la compañía autogestionada:
+
+
+
+PORTFOLIO:
+fotillos de actuaciones con divisiones de los eventos realizados.
+
+
+
+CONTACTO ok
+enlaces:
+instagram 7mdg:	https://www.instagram.com/7minutosdegloria/?hl=es
+paula		https://www.instagram.com/ppaulamira/?hl=es
+manu		https://www.instagram.com/cantellimanu/?hl=es
+cris		https://www.instagram.com/cri.cri.m/?hl=es
+marta		https://www.instagram.com/marts_gu/?hl=es
+naira		https://www.instagram.com/combusstion/?hl=es
+laura		https://www.instagram.com/lorazesugar/?hl=es
+lucia		https://www.instagram.com/luhierro/?hl=es
