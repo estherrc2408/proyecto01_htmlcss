@@ -102,6 +102,7 @@ body {
     font-style: oblique;
 }
 
+/*Contact con forms todo ok, falta comentar*/
 .section1 {
     display: flex;
     justify-content: space-between;/* Distribuir items uniformemente, el primer item al inicio, el último al final */
