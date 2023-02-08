@@ -1,10 +1,12 @@
-/*reseteo de valores*/
+/*ya tenemos el head y el nav,  ahora vamos con el */
+/*dentro de contacto tenemos una section con dos divs principales, class contacta y class*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    
+    font-size: 16px;
 }
 
 body {
@@ -36,7 +38,7 @@ body {
 .header .logo img {
     width: 60px;
     height: 60px ;
-    border: 0.1px solid gray;
+    border: 0.1px solid rgba(128, 128, 128, 0);
     border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;/*duracion transicion*/
@@ -85,7 +87,6 @@ body {
     color: black;
     margin: 25px;
     padding: 5px;
-    border: 1px solid black;
     position: relative;
     left: 40px;
 
@@ -93,10 +94,77 @@ body {
 
 .subtitulo {
     font-family: Cambria,Georgia,serif;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     font-size: 18px;
-    border: 1px solid black;
     position: relative;
-    left: 40px
+    left: 40px;
+    font-style: oblique;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;/* Distribuir items uniformemente, el primer item al inicio, el último al final */
+    align-items: center;
+
+    margin: 30px;
+    
+}
+
+.section1 #contact_group {
+    height: 400px;
+    width: 250px;
+    border: 0.1px solid rgba(95, 133, 180, 0.647);
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 25px;
+    background-color: rgba(95, 133, 180, 0.647);
+    text-align: center;
+    line-height : 18px;
+}
+
+#enl_group {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.section1 #contact_separado {
+    border: 0.1px solid rgba(95, 133, 180, 0.647);    
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(95, 133, 180, 0.647);
+    font-size: 14px;
+    text-align: center;
+    line-height : 18px;
+
+}
+
+#enl_separado {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+.camiseta {
+    text-align: center;
+    font-size: 14px;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.section1 h4 {
+    font-size: 22px;
+    
+}
+
+#fotocami img {
+    width: 225px;
+    height: auto;
+    border: 0.1px solid rgba(95, 133, 180, 0.647);
+    border-radius: 20px;
 }
