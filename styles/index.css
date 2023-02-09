@@ -13,7 +13,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(rgba(40,171,182,0.20), rgba(81,103,105,0.80)), url(https://elumbraldeprimavera.com/wp-content/uploads/image00001.jpeg);
     background-size: cover;
-    background-attachment: fixed;/*fijar el fondo*/
+    background-attachment: fixed;
     margin-right: 40px;
 }
 /*nav y header todo ok falta por comentar*/
@@ -29,9 +29,9 @@ body {
 
 .navprincipal {
     width: 80%;
-    margin: auto; /*centrar*/
+    margin: auto;
     padding: 35px 0; 
-    display: flex; /*separa logo de enlaces*/
+    display: flex;
     align-items: center;
     justify-content: space-between; 
 }
@@ -42,7 +42,7 @@ body {
     border: 0.1px solid rgba(128, 128, 128, 0);
     border-radius: 30px;
     cursor: pointer;
-    transition: 0.3s;/*duracion transicion*/
+    transition: 0.3s;
     position: sticky;
     margin: auto;
 }
@@ -52,14 +52,14 @@ body {
 } 
 
 .header .navprincipal {
-    list-style: none; /*quitar puntos lista*/
+    list-style: none; 
 }
 
 .header .navprincipal li{
     display: inline-block;
     width: 80%;
     padding: 0 20px;
-    margin: 0 20px;/*separar los enlaces unos de otros*/
+    margin: 0 20px;
 }
 
 .header .navprincipal li:hover {
@@ -122,7 +122,7 @@ body {
     
 }
 
-/*Home todo ok, falta comentar*/
+/*Home */
 #sinopsis {
     display: flex;
     justify-content: flex-end;
@@ -131,8 +131,6 @@ body {
     margin-left: 40px;
     padding: 20px;
     background-color: rgba(5, 77, 84, 0.249);
-
-    /*ojito aqui igual toca anadir align-items*/
 }
 
 #sinopsis #intro {
@@ -153,10 +151,10 @@ body {
     text-align: center;
 }
 
-/*Biografia todo ok, faltan notas*/
+/*Biografia */
 #origenobra {
     display: flex;
-    justify-content: space-around;/*Items will have space before, between, and after them*/
+    justify-content: space-around;
     margin-left: 40px;    
 }
 
@@ -177,7 +175,7 @@ body {
 
 #ficha {
     display: flex;
-    justify-content: space-around;/*Items will have space before, between, and after them*/
+    justify-content: space-around;
     margin-left: 40px;    
 }
 
@@ -207,6 +205,7 @@ body {
     border-radius: 30px;
     float: right
 }
+
 /*Portfolio*/
 .seccion {
     background-color: rgba(5, 77, 84, 0.249);
@@ -228,10 +227,10 @@ body {
     height: 250px;
 }
 
-/*Contact con forms todo ok, falta comentar*/
+/*Contact */
 .section1 {
     display: flex;
-    justify-content: space-between;/* Distribuir items uniformemente, el primer item al inicio, el último al final */
+    justify-content: space-between;
     align-items: center;
 
     margin: 30px;
